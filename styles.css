@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:black;
+    color:white;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+a {
+    color:white;
+    padding: 10px;
+    background: #86A641
+
+}
+ 
+.titulo_destaque {
+    color:#86A641;
+}
+img{
+   height: 300px;
+   width: 250px;
+   
+}
