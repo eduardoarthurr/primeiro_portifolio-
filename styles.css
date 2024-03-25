@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100vh;
     background-color:black;
     color:white;
     font-family: "Gruppo", sans-serif;
@@ -14,8 +15,8 @@ body {
 
 a {
     color:white;
-    padding: 10px;
-    background: #86A641
+    
+    
 
 }
  
@@ -23,7 +24,16 @@ a {
     color:#86A641;
 }
 img{
-   height: 300px;
-   width: 250px;
+   height: 400px;
+   width: 400px;
    
+   
+}
+
+.apresentacao{
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    
+    
 }
