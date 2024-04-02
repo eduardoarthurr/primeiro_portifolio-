@@ -5,6 +5,7 @@
     --cor_primaria:black;
     --cor_secundaria:white;
     --cor_terciaria: #86A641;
+    --cor_hover: #272727;
 }
 
 * {
@@ -15,26 +16,30 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color:var(--cor_primaria);
+    background-color: var(--cor_primaria);
     color: var(--cor_secundaria);
+    
+      
 }
 
 .cabecalho{
-    padding: 2% 0 5% 5%;
+    padding: 2% 0 0 5%;
 
 }
 
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    
 }
 
 .cabecalho__menu__link{
     font-size: 20px;
     font-family: "Kanit", sans-serif;
-    color: var(--cor_secundaria);
+    color:  var(--cor_secundaria);
     text-decoration: none;
     position: relative;
+    
 
 }
 
@@ -62,51 +67,44 @@ body {
 .cabecalho__menu__link:hover::after{
     width: 100%;
 }
-.conteudo{
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 5%;
-    align-items: center;
-
-}
-.apresentacao__conteudo{
-    width: 650px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px
-}
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-    width: 500px;
-    display: flex;
-    padding: 0% 0 5% 5%;
-
+    width: 650px;
 }
 
-.apresentacao__paragrafo{
-    font-size: 20px;
+.subtitulo__conteudo{
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: italic;
-    width: 500px;
+}
 
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+    position: relative;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    gap: 7px;
+    
     
 }
 
-.apresentacao__paragrafo:hover{
-    font-size: 20px;
+.apresentacao__conteudo__paragrafo{
+    font-size: 16px;
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: italic;
     width: 500px;
-    text-decoration: underline;
-    text-decoration-color: var(--cor_terciaria);
-    transition: 0.15s;  
-    cursor: pointer;
 }
 
 .img_dev{
@@ -116,9 +114,7 @@ body {
     border-radius: 75px;
     padding: 5px;
     color: var(--cor_secundaria);
-
-    
-}
+ }
 
 .rodape{
     background-color: var(--cor_terciaria);
