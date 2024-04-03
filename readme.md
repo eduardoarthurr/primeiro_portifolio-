@@ -1,1 +1,1 @@
-primeiro projeto de portifolio, adiquiri bastante conhecimento em css nesse projeto.
+primeiro projeto de portifolio, estou adiquirindo bastante conhecimento em css nesse projeto.
